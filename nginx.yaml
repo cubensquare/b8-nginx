@@ -8,3 +8,5 @@ spec:
   containers:
     - name: cont
       image: nginx
+    - containerPort
+       targetPort: 80
